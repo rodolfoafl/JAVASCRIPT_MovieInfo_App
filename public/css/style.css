@@ -17,6 +17,7 @@
 
 .movies-container {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .movies-container a {

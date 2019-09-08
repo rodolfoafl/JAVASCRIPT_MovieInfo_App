@@ -87,7 +87,7 @@ function getMovies(text) {
       let output = "";
 
       movies.forEach(movie => {
-        let poster = "../img/default-movie.png";
+        let poster = "./img/default-movie.png";
         if (movie.Poster !== "N/A") {
           poster = movie.Poster;
         }
